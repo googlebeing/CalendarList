@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- 字体大小 -->
+    <!--<dimen name="toolbar_size"></dimen>
+    <dimen name="toolbar_size"></dimen>-->
+    <dimen name="text_size_01">24sp</dimen>
+    <dimen name="text_size_02">18sp</dimen>
+    <dimen name="text_size_03">17sp</dimen>
+    <dimen name="text_size_04">16sp</dimen>
+    <dimen name="text_size_05">15sp</dimen>
+    <dimen name="text_size_06">14sp</dimen>
+    <dimen name="text_size_07">12sp</dimen>
+    <dimen name="text_size_08">10sp</dimen>
+    <dimen name="edit_text_left_padding">8dp</dimen>
+</resources>

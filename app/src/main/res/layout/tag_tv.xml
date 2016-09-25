@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snsproject.snsproj.calendar_list.SnsTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:textFontStyle="light"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingBottom="3dp"
+    android:background="@color/card_color"
+    android:gravity="center"
+    android:includeFontPadding="false"
+    android:textSize="12sp"
+    android:textColor="#677FA6"/>

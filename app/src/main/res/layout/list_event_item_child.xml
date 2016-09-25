@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card_color"
+    android:minHeight="70dp"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/res_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OBE发力：走出室内，让VR设备更加时尚，虚拟现实更好的结合"
+        android:textColor="#1E1E1E"
+        android:textSize="17sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/is_signed"
+            android:layout_width="44dp"
+            android:layout_height="15dp"
+            android:layout_gravity="start|center_vertical"
+            android:background="@drawable/sign_up_state_bg"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="已签到"
+            android:textColor="#FFC543"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.snsproject.snsproj.calendar_list.SnsTextView
+                android:id="@+id/commented_nums"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@mipmap/ic_index_heart"
+                android:drawablePadding="2dp"
+                android:drawableStart="@mipmap/ic_index_heart"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="1384"
+                android:textColor="#1E1E1E"
+                android:textSize="12sp"
+                app:textFontStyle="light" />
+
+            <com.snsproject.snsproj.calendar_list.SnsTextView
+                android:id="@+id/wanted_nums"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@mipmap/ic_index_commend"
+                android:drawablePadding="2dp"
+                android:drawableStart="@mipmap/ic_index_commend"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="1384"
+                android:textColor="#1E1E1E"
+                android:textSize="12sp"
+                app:textFontStyle="light" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/wanted_join_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.snsproject.snsproj.calendar_list.SnsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="top"
+            android:includeFontPadding="false"
+            android:text="想参加"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            app:textFontStyle="light" />
+
+        <com.snsproject.snsproj.calendar_list.flowlayout.TagFlowLayout
+            android:id="@+id/tags_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" />
+    </LinearLayout>
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line_unreal"/>
+
+</LinearLayout>

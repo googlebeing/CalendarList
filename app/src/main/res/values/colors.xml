@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--设计规范-->
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#33000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="text_color_01">#1e1e1e</color>
+    <color name="text_color_02">#4a4a4a</color>
+    <color name="text_color_03">#646464</color>
+    <color name="text_color_04">#969696</color>
+    <color name="text_color_05">#b4b4b4</color>
+    <color name="text_color_06">#dcdcdc</color>
+    <color name="text_color_07">#59749f</color>
+    <color name="text_color_08">#ff5a5a</color>
+    <color name="line_color_01">#dcdcdc</color>
+    <color name="line_color_02">#e2e2e2</color>
+    <color name="card_color">#ffffff</color>
+    <color name="card_color_projection">#eeeeee</color>
+    <color name="background_color_01">#f2f2f2</color>
+    <color name="background_color_02">#fff</color>
+    <color name="background_color_03">#FAFAFA</color>
+</resources>
